@@ -33,6 +33,7 @@ func simulateCar(res http.ResponseWriter, req *http.Request) {
 		if car.Tires > 0 {
 			res.Write([]byte("Bruce has to change the tires from being a boss<br>\n"))
 			car.Tires = 0
+			continue
 		}
 
 		//Change the oil when car hits 3000 miles
@@ -42,7 +43,7 @@ func simulateCar(res http.ResponseWriter, req *http.Request) {
 			continue
 		}
 
-		choiceNumber := rand.Intn(4) // 4 being the number of htings that bruce does with the car
+		choiceNumber := rand.Intn(4) // 4 being the number of things that bruce does with the car
 		switch choiceNumber + 1 {
 
 		case 1:

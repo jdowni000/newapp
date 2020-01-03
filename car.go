@@ -72,6 +72,5 @@ func (c *Car) Wash() {
 func (c *Car) Drift() {
 	c.Output.Write([]byte("Drift time....getting slidewayzzz<br>\n"))
 	c.Tires = c.Tires + 1
-	c.Mileage = c.Mileage + 1000
 
 }
