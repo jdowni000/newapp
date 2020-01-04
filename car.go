@@ -44,7 +44,7 @@ func (c *Car) Miles() {
 
 //Drive makes the car drive
 func (c *Car) Drive() {
-	c.Output.Write([]byte("Bruce goes for a drive....pedal to the metal<br>\n"))
+	c.Output.Write([]byte("Bruce goes for a drive....pedal to the metal hittin that<br>\n"))
 	c.Mileage = c.Mileage + 1000
 }
 
