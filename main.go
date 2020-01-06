@@ -60,6 +60,6 @@ func simulateCar(res http.ResponseWriter, req *http.Request) {
 		}
 
 	}
-	res.Write([]byte("Bruce drove the crap out of that Skyline.....let's not run it in the gournd...time to park it...she is only for shows now<br>\n"))
+	res.Write([]byte("Bruce drove the crap out of that Skyline.....let's not run it in the ground...time to park it...she is only for shows now<br>\n"))
 
 }
