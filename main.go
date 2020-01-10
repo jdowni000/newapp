@@ -12,6 +12,8 @@ func main() {
 }
 
 func simulateCar(res http.ResponseWriter, req *http.Request) {
+	
+	// log.Println()
 
 	res.Write([]byte("<html>"))
 
